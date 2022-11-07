@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(31, 60, 84);
+}
+
+strong {
+    color: rgba(31, 60, 84, 0.671);
+
+}
+
+img {
+    border-radius: 0.4rem;
+}
+
+.layout-container {
+    display: flex;
+}
+
+.vertical-line {
+    height: 100vh;
+    background-color: #6a47f8;
+    margin-right:2rem;
+    padding: 1rem;
+}
+
+.vertical-line:hover {
+    background-color: #6243e1;
+}
+
+a {
+    text-decoration: none;
+    color:#131332;
+}
+
+
+table tr, table th {
+    padding: 0.5rem;
+    box-shadow: 0 0 22px #8080804b;
+    
+}
+
+table{
+    color:#12272774;
+}
+
+table .header {
+    color:#122727e7;
+    background-color: #2424253b;
+
+}
+    
+
+a:hover {
+    color:#7b7bf5db;
+}
+
+footer {
+    opacity: 0.5;
+    margin-top: 2rem;
+}
